@@ -1,5 +1,5 @@
-#ifndef _STOCK00_H_
-#define _STOCK00_H_
+#ifndef STOCK00_H_
+#define STOCK00_H_
 #include <string>
 class Stock   //Class declaration
 {

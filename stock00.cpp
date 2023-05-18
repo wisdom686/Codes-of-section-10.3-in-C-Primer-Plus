@@ -17,12 +17,10 @@ Stock::Stock(const string& co, long n, double pr) {
         shares = 0;
     }
     else
-    {
         shares = n;
-        share_val = pr;
-        set_tot();
+    share_val = pr;
+    set_tot();
 
-    }
 }
 
 void Stock::acquire(const std::string& co, long n, double pr) 
